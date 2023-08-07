@@ -4,7 +4,7 @@ import { ModalContext } from '../../context';
 
 import './Modal.css'
 
-interface Props {
+type Props = {
   children: React.ReactNode
 }
 

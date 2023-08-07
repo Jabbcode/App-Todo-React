@@ -3,7 +3,7 @@ import { useContext, useState } from 'react';
 import { ModalContext, TodoContext, UIContext } from "../../context";
 import { ITodo } from "../../types";
 
-interface Props {
+type Props = {
   info: ITodo
 }
 
